@@ -8,7 +8,7 @@ const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
 const USER_ID = import.meta.env.VITE_USER_ID;
 
 
-const Contact = () => {
+const ContactUs = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -103,4 +103,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactUs;
